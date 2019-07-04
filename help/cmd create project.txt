@@ -1,7 +1,7 @@
 Microsoft Windows [Version 10.0.16299.98]
 (c) 2017 Microsoft Corporation. All rights reserved.
 
-E:\Code\Java\firebasecli\angular8try>firebase init
+E:\Code\Java\firebasecli\AngularFirebaseHosting\AngularFirebaseHosting>firebase init
 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -11,7 +11,7 @@ E:\Code\Java\firebasecli\angular8try>firebase init
 
 You're about to initialize a Firebase project in this directory:
 
-  E:\Code\Java\firebasecli\angular8try
+  E:\Code\Java\firebasecli\AngularFirebaseHosting\AngularFirebaseHosting
 
 ? Are you ready to proceed? Yes
 ? Which Firebase CLI features do you want to set up for this folder? Press Space to select features, then Enter to confi
@@ -42,7 +42,7 @@ i  Writing gitignore file to .gitignore...
 
 +  Firebase initialization complete!
 
-E:\Code\Java\firebasecli\angular8try>firebase deploy
+E:\Code\Java\firebasecli\AngularFirebaseHosting\AngularFirebaseHosting>firebase deploy
 
 === Deploying to 'angular8try'...
 
@@ -60,4 +60,32 @@ i  hosting[angular8try]: releasing new version...
 Project Console: https://console.firebase.google.com/project/angular8try/overview
 Hosting URL: https://angular8try.firebaseapp.com
 
-E:\Code\Java\firebasecli\angular8try>
+
+E:\Code\Java\firebasecli\AngularFirebaseHosting\AngularFirebaseHosting>firebase serve
+
+=== Serving from 'E:\Code\Java\firebasecli\AngularFirebaseHosting\AngularFirebaseHosting'...
+
+i  hosting: Serving hosting files from: public
++  hosting: Local server: http://localhost:5000
+Shutting down...
+Terminate batch job (Y/N)? y
+
+E:\Code\Java\firebasecli\AngularFirebaseHosting\AngularFirebaseHosting>firebase deploy
+
+=== Deploying to 'angular8try'...
+
+i  deploying hosting
+i  hosting[angular8try]: beginning deploy...
+i  hosting[angular8try]: found 26 files in public
++  hosting[angular8try]: file upload complete
+i  hosting[angular8try]: finalizing version...
++  hosting[angular8try]: version finalized
+i  hosting[angular8try]: releasing new version...
++  hosting[angular8try]: release complete
+
++  Deploy complete!
+
+Project Console: https://console.firebase.google.com/project/angular8try/overview
+Hosting URL: https://angular8try.firebaseapp.com
+
+E:\Code\Java\firebasecli\AngularFirebaseHosting\AngularFirebaseHosting>
